@@ -12,7 +12,7 @@ def index():
         'persons':['zhiliao','ketang'],
         'age': "18",
         'article': 'hello zhiliao world hello',
-        'create_time': datetime(2017,10,20,16,19,0)
+        'create_time': datetime(2020,2,13,16,19,0)
     }
     return render_template('index.html',**context)
 
